@@ -4,4 +4,4 @@ service:
     ports: 
       - "6022:5432"
     env_file:
-    - .env    "6022:"
+    - .env  
