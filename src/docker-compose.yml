@@ -1,0 +1,7 @@
+service:
+  unipe-pg:
+    image: bitnami/postgresql
+    ports: 
+      - "6022:5432"
+    env_file:
+    - .env    "6022:"
