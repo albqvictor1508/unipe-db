@@ -15,3 +15,7 @@ INNER JOIN Celular c ON c.owner_id = p.id
 GROUP BY p.id, p.name
 HAVING(c.qtd) = 100;
 ```
+
+### Union
+
+- O Union pode ser usado para unir uma tabela à outra, pode ser usado em casos que as duas condições seguem caminhos completamente diferentes
